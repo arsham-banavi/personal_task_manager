@@ -1,0 +1,11 @@
+# user info
+tasks.txt
+
+# cache
+__pycache__/
+
+# log files
+*.log
+
+# environment files
+.env
