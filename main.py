@@ -1,6 +1,6 @@
 import os
 from dotenv import load_dotenv
-from tasks import tasks_list, add_tasks
+from tasks import tasks_list, add_tasks, priority_list
 
 # admin mode
 load_dotenv()
@@ -23,8 +23,10 @@ print(f"{name}'s current tasks: ")
 if tasks_list == []:
     print("no tasks")
 else:
+    a = 0
     for i in tasks_list:
-        print(f" - {i}")
+        print(f" - {i} - {priority_list[a]} priority")
+        a += 1
 
 with open("tasks.txt", "a") as file:
     file.write(f"{name} - {tasks_list}\n")

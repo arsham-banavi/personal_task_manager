@@ -1,4 +1,5 @@
 tasks_list = []
+priority_list = []
 
 def add_tasks():
     new_tasks = True
@@ -7,5 +8,7 @@ def add_tasks():
         if task.lower() == "q":
             new_tasks = False
             break
+        priority = input("Enter task priority (low / medium / high): ")
         tasks_list.append(task)
+        priority_list.append(priority)
         continue
