@@ -156,13 +156,13 @@ alex's current tasks:
 ## Screenshot
 
 ### Task Manager Start
-![task manager start](pictures\1.png)
+![task manager start](pictures/1.png)
 
 ### Adding tasks
-![adding tasks](pictures\2.png)
+![adding tasks](pictures/2.png)
 
 ### Tasks list
-![tasks list](pictures\3.png)
+![tasks list](pictures/3.png)
 
 ## Demo
 
