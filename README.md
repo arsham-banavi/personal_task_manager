@@ -26,6 +26,7 @@ A personal task management app built with Python.
   - Creates tasks list
   - Shows all tasks
   - Show tasks status
+  - Includes a priority system for tasks
 - Tasks storage
   - Keeps task list for every user in `tasks.txt`
 - Admin mode
@@ -135,15 +136,21 @@ Welcome!
 Enter username: alex
 
 Enter a task (`q` to stop): shopping
+Enter task priority level (low / medium / high): low
+
 Enter a task (`q` to stop): homework
+Enter task priority level (low / medium / high): high  
+
 Enter a task (`q` to stop): call mom
+Enter task priority level (low / medium / high): medium
+
 Enter a task (`q` to stop): q
 
 ------
-alex's current tasks: 
- - shopping
- - homework
- - call mom
+alex's current tasks:
+ - shopping - low priority
+ - homework - high priority
+ - call mom - medium priority
  ```
 
 ## Screenshot
@@ -166,6 +173,7 @@ alex's current tasks:
 - [x] Add basic task management capabilities
 - [x] Save user tasks to external file
 - [x] Add admin mode
+- [x] Add priority mode for tasks
 - [ ] Add admin specific features
 - [ ] Load tasks from external file via username
 
